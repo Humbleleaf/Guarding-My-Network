@@ -1,9 +1,13 @@
 # Guarding-My-Network
-Just Another Webfig for squid
- Type  aauth menngunakan mysql database 
- Dynqmic acl di update melalui php 
- reload / restart squid dilakukan dgn background proses yang akqn bekerja bila file di 
-  bagian utama user foto,profile nama password blocking list speed dan time 
-  
-  
-  
+
+Project Webfig Untuk Http Proxy Menggunakan Squid yang bertitik Fokus kepada User
+Dalam project ini setiap user memiliki hak akses,kecepatan bandwidth dan waktu aktif yang berbeda.
+
+
+# Bagaimana Itu Bekerja
+
+# UserManager
+		1. Menggunakan Authentication Squid Mysql http://wiki.squid-cache.org/ConfigExamples/Authenticate/Mysql
+		2. User dan Password digunakan dalam dua hal untuk memasuki web ( Admin Maupun Bukan ) dan Untuk Proxy Authentication
+		3. User Memiliki Beberapa Atribut Yaitu 
+										a. Profile Picture tersimpan di /usr/share/gmn
